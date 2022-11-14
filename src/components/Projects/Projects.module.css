@@ -1,0 +1,24 @@
+.projectsWrapper {
+    padding: 50px 0;
+    background-color: wheat;
+    border: 1px solid;
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectsContent {
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title{
+    margin-bottom: 80px;
+    background-color: white;
+}

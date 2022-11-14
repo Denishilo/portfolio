@@ -1,0 +1,11 @@
+.headerWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    background-color: darkturquoise;
+}
+
+.headerWrapper .headerContent {
+    justify-content: flex-end;
+}
