@@ -1,15 +1,29 @@
 .mainWrapper {
     height: 100vh;
-    background-color: wheat;
+    background-color: #fff
 }
-
+.container{
+    justify-content: space-around;
+}
 .info {
-    width: 500px;
-    background-color: white;
+    width: 550px;
+
 }
 
 .photo {
-    width: 300px;
-    height: 400px;
-    background-color: white;
+    width: 500px;
+    height: 700px;
+    background-color: cadetblue;
+}
+
+.title {
+    font-family: 'Syne', sans-serif;
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 120px;
+    margin: 0;
+}
+
+.text{
+    font-weight: 500;
 }

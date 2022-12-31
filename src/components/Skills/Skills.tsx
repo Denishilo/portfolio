@@ -12,7 +12,7 @@ export const Skills = (props: SkillsPropsType) => {
     return (
         <div className={styles.skillsWrapper}>
             <div className={`${styleContainer.container} ${styles.skillsContainer}`}>
-                <h2 className={styles.skillsTitle}>My Skills</h2>
+                <h2 className={styles.skillsTitle}>Skills</h2>
                 <div className={styles.skillsContent}>
                     {skills.map(el => {
                         return (

@@ -7,9 +7,9 @@ export const Main = () => {
         <div className={styles.mainWrapper}>
             <div className={styleContainer.container}>
                 <div className={styles.info}>
-                    <span>Hi There</span>
-                    <h1>I am Denis Anishchenko</h1>
-                    <p>fronted developer</p>
+                    <h1 className={styles.title}>Hi, I'm Denis</h1>
+                    <p className={styles.text}>I’m a developer & I’m very passionate and dedicated to my work. I have acquired the skills and
+                        knowledge necessary to make your project a success.</p>
                 </div>
                 <div className={styles.photo}></div>
             </div>

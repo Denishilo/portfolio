@@ -1,6 +1,6 @@
 .skillsWrapper{
     padding: 50px 0;
-    background-color: cadetblue;
+    background-color: #f6f6f6;
 
 }
 .skillsContainer{
@@ -19,6 +19,8 @@
 }
 
 .skillsTitle{
-    background-color: white;
+    text-align: start;
     margin-bottom: 80px;
+    font-size: 60px;
+    line-height: 70px;
 }
