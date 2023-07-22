@@ -8,9 +8,9 @@ export const MySkills = () => {
     const [skillsList] = useState<Array<string>>(['JAVA SCRIPT', 'TYPE SCRIPT', 'REACT', 'REDUX', 'JEST','STYLED COMPONENTS', 'CSS', 'HTML'])
     return (
         <StyledSkills>
-            <SectionTitle>My skills</SectionTitle>
+            <SectionTitle>My Skills</SectionTitle>
             <FlexWrapper justify={'space-between'} wrap={'wrap'}>
-                {skillsList.map(el => <Skill title={el}/>)}
+                { skillsList.map(el => <Skill key={el} title={el}/>) }
             </FlexWrapper>
         </StyledSkills>
     );
