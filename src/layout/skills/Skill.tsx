@@ -7,7 +7,7 @@ export const Skill: FC<PropsType> = ({title}) => {
     return (
         <SkillStyled>
             <FlexWrapper direction={'column'}>
-                <Icon iconId={title}/>
+                <Icon iconId={title} width={'80px'} height={'80px'}/>
                 <SkillTitle>
                     {title}
                 </SkillTitle>
@@ -18,7 +18,7 @@ export const Skill: FC<PropsType> = ({title}) => {
 };
 
 const SkillStyled = styled.div`
-  width: 30%;
+  width: 20%;
   background-color: antiquewhite;
   margin: 10px;
 `

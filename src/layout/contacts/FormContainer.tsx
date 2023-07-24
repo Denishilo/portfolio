@@ -4,7 +4,13 @@ import styled from "styled-components";
 import {FlexWrapper} from "components/flexWrapper/FlexWrapper";
 
 export const FormContainer = () => {
-    const form = useForm<FormValues>()
+    const form = useForm<FormValues>({
+        defaultValues:{
+            username:'',
+            email:'',
+            message:''
+        }
+    })
     const {register, handleSubmit, formState} = form
     const {errors} = formState
     // const {name, ref, onChange, onBlur} = register('name')
