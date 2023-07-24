@@ -5,12 +5,12 @@ import {FlexWrapper} from "components/flexWrapper/FlexWrapper";
 import {Skill} from "layout/skills/Skill";
 
 export const MySkills = () => {
-    const [skillsList] = useState<Array<string>>(['JAVA SCRIPT', 'TYPE SCRIPT', 'REACT', 'REDUX', 'JEST','STYLED COMPONENTS', 'CSS', 'HTML'])
+    const [skillsList] = useState<Array<string>>(['JAVA SCRIPT', 'TYPE SCRIPT', 'REACT','NEXT.JS', 'REDUX-TOOLKIT', 'REACT QUERY' ,'JEST', 'GIT','SASS', 'STYLED COMPONENTS', 'MUI', 'CSS', 'HTML', 'STORYBOOK'])
     return (
         <StyledSkills>
             <SectionTitle>My Skills</SectionTitle>
-            <FlexWrapper justify={'space-between'} wrap={'wrap'}>
-                { skillsList.map(el => <Skill key={el} title={el}/>) }
+            <FlexWrapper justify={'space-around'} wrap={'wrap'}>
+                {skillsList.map(el => <Skill key={el} title={el}/>)}
             </FlexWrapper>
         </StyledSkills>
     );

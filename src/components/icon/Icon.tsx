@@ -1,10 +1,9 @@
 import React, {FC} from 'react';
-import sprite from '../../images/IconSprite.svg'
+import sprite from 'images/sprite.svg'
 
 export const Icon: FC<Props> = ({iconId, width, height, viewBox}) => {
     return (
-        <svg width={width || '120'} height={height || '119'} viewBox={viewBox || "0 0 120 119"} fill="none"
-             xmlns="http://www.w3.org/2000/svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width={width || '100px'} height={height || '100px'}>
             <use xlinkHref={`${sprite}#${iconId}`}/>
         </svg>
     );

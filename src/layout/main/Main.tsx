@@ -17,13 +17,12 @@ export const Main = () => {
                 </div>
                 <Photo src={photo} alt="photo"/>
             </FlexWrapper>
-
         </StyledMain>
     );
 };
 
 const StyledMain = styled.section`
-  min-height: 50vh;
+  min-height: 100vh;
   background-color: antiquewhite;
 `
 
@@ -37,9 +36,8 @@ const Info = styled.p`
     max-width: 400px;
 `
 
-
 const Photo = styled.img`
-  width: 350px;
-  height: 430px;
+  width: 800px;
+  height: 1300px;
   object-fit: cover;
 `

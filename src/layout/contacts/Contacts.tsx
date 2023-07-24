@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {FlexWrapper} from "components/flexWrapper/FlexWrapper";
 import {FormContainer} from "layout/contacts/FormContainer";
+import {ListLinks} from "layout/contacts/ListLinks";
 
 export const Contacts = () => {
     return (
@@ -9,14 +10,7 @@ export const Contacts = () => {
             <FlexWrapper justify={'space-around'}>
                 <ContactsLinks>
                     <Title>Let’s Connect</Title>
-                    <ListLink>
-                        <ul>
-                            <li><a href="">LinkedIn</a></li>
-                            <li><a href="">GitHub</a></li>
-                            <li><a href="">Telegram</a></li>
-                            <li><a href="">Codewars</a></li>
-                        </ul>
-                    </ListLink>
+                    <ListLinks/>
                 </ContactsLinks>
                 <FormContainer/>
             </FlexWrapper>
@@ -32,8 +26,7 @@ const ContactsLinks = styled.div``
 
 const Title = styled.h3``
 
-const ListLink = styled.nav`
-`
+
 
 
 

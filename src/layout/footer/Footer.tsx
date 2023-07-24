@@ -5,7 +5,6 @@ export const Footer = () => {
     return (
         <StyledFooter>
             <CopyRight/>© 2023 Denis Anishchenko, All Rights Reserved.
-
         </StyledFooter>
     );
 };
